@@ -1,0 +1,1 @@
+{"model_name": "model_3", "embedding_dim": 500, "encoder": [{"type": "bi-LSTM", "dim": 300}], "decoder": [{"type": "LSTM", "dim": 600}], "attention": {"used": true, "type": "Luong"}, "batch_size": 64, "epochs_completed": 7, "max_text_len": 60, "max_summary_len": 10, "nrows_dataset": {"total": 100000, "used": 70707}, "additional": ""}
